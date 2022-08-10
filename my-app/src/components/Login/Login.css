@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    color:black;
+}
+section .img-box{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+section .img-box:before{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background : linear-gradient(225deg,#e91e63,#03a9f4);
+
+
+}
+section .img-box img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+section .contentbx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+section .contentbx .formbox{
+    width: 50%;
+
+}
+section .contentbx .formbox h2{
+    color: #A600FF ;
+    font-weight:200;
+    font-size:1.5em;
+    margin-bottom: 20px;
+    display: inline-block;
+    letter-spacing: 5px;
+}
+section .contentbx .formbox .inputbx{
+    margin-bottom: 20px;
+    
+}
+section .contentbx .formbox .inputbx span{
+    font-size:16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #A600FF;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+section .contentbx .formbox .inputbx input{
+    font-size:18px;
+    padding:0px 0px 0px 0px;
+    display:block;
+    width:300px;
+    border:none;
+    border-bottom:1px solid #A600FF ;
+    
+}
+input:focus { outline:none; }
+  
+section .contentbx .formbox .inputbx input[type="submit"]{
+    width: 40%;
+    padding:10px 20px;
+    outline: none;
+    font-weight: 400;
+    border:1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color:#FFFFFF ;
+    background: #A600FF;
+    border-radius: 30px;
+    position: relative;
+    left: 52px;
+    top:30px;
+}
+
+section .contentbx .formbox .inputbx p{
+    
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color:#A600FF ;
+    position: relative;
+    left: 52px;
+    top:61px;
+}
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  

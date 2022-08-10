@@ -1,9 +1,15 @@
-
 import './App.css';
+
+import Reset from './components/Password/Forgotpassword';
 
 function App() {
   return (
-    <h1>Hello</h1>
+    <div>
+      
+        <Reset />
+      
+      
+    </div>
   );
 }
 
