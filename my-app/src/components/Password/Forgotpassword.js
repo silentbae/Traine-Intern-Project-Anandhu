@@ -1,12 +1,11 @@
 import React from 'react'
 import './Forgot.css';
-import Background from './forgot_pass.jpg'
-
+import {images} from "../assets/images"
 function Reset(){
   return (
     <section>
         <div className="img-box">
-            <img src={Background} alt="Background"/>
+            <img src={images.password} alt="Background"/>
         </div>
         <div className="contentbx">
           <div className="formbox">

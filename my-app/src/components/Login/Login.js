@@ -1,13 +1,13 @@
 import React from 'react'
 import './Login.css';
-import Background from './login_page.jpg'
+import {images} from "../../assets/Images"
 
 function Login (){
   return (
     
    <section>
     <div className="img-box">
-    <img src={Background} alt="Background"/>
+    <img src={images.login} alt="Background"/>
     </div>
     <div className="contentbx">
       <div className="formbox">

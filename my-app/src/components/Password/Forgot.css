@@ -61,7 +61,7 @@ section .contentbx .formbox p{
     font-size:1em;
     margin-bottom: 12px;
     display: inline-block;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 section .contentbx .formbox .inputbx{
     margin-bottom: 20px;

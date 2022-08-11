@@ -1,0 +1,23 @@
+
+.container{
+    display: flex;
+    margin: 0;
+   
+
+}
+.topbar{
+    background-color: #668fff;
+    height: 12vh;
+    width: 77vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2em;
+}
+.btn2{
+    padding: 0.7em 1em;
+    margin: 0.7em;
+    background-color: #f2f5fa;
+    border: none;
+    color: #668fff;
+}

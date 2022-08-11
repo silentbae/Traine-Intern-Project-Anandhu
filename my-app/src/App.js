@@ -1,13 +1,13 @@
 import './App.css';
 
-import Reset from './components/Password/Forgotpassword';
-
+import NavBar from './components/Header/NavBar';
+import Home from './components/Home/home';
 function App() {
   return (
     <div>
       
-        <Reset />
-      
+        <NavBar />
+        <Home />
       
     </div>
   );

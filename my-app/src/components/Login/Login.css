@@ -75,7 +75,7 @@ section .contentbx .formbox .inputbx input{
     display:block;
     width:300px;
     border:none;
-    border-bottom:1px solid #A600FF ;
+    border-bottom:2px solid #A600FF ;
     
 }
 input:focus { outline:none; }
