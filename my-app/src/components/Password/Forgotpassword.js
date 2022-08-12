@@ -1,6 +1,6 @@
 import React from 'react'
 import './Forgot.css';
-import {images} from "../assets/images"
+import {images} from "../../assets/Images"
 function Reset(){
   return (
     <section>

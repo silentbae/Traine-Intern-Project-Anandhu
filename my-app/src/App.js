@@ -1,14 +1,18 @@
 import './App.css';
+import { Routes, Route, Link } from "react-router-dom";
+import Login from './pages/Login';
+import Forgotpassword from './pages/Forgotpassword';
+import Dashboard from './pages/Dashboard';
+import Message from './pages/Messages';
 
-import NavBar from './components/Header/NavBar';
-import Home from './components/Home/home';
 function App() {
   return (
-    <div>
+    <div>  
       
-        <NavBar />
-        <Home />
-      
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="about" element={<Forgotpassword />} />
+      </Routes>
     </div>
   );
 }
