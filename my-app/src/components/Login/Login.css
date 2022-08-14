@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
 *{
     margin:0;
@@ -52,35 +53,45 @@ section .contentbx .formbox h2{
     font-weight:200;
     font-size:1.5em;
     margin-bottom: 20px;
-    display: inline-block;
     letter-spacing: 5px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    
 }
 section .contentbx .formbox .inputbx{
     margin-bottom: 20px;
+    
     
 }
 section .contentbx .formbox .inputbx span{
     font-size:16px;
     margin-bottom: 5px;
-    display: inline-block;
+    display:flex;
+    align-items: center;
+    justify-content:center;
     color: #A600FF;
     font-weight: 300;
     font-size: 16px;
     letter-spacing: 1px;
 
 }
-section .contentbx .formbox .inputbx input{
+section .contentbx .formbox .inputb input{
     font-size:18px;
     padding:0px 0px 0px 0px;
-    display:block;
+    display:flex;
     width:300px;
     border:none;
-    border-bottom:2px solid #A600FF ;
+    border-bottom:1px solid #A600FF ;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    
     
 }
 input:focus { outline:none; }
   
-section .contentbx .formbox .inputbx input[type="submit"]{
+section .contentbx .formbox .inputb input[type="submit"]{
     width: 40%;
     padding:10px 20px;
     outline: none;
@@ -91,20 +102,27 @@ section .contentbx .formbox .inputbx input[type="submit"]{
     color:#FFFFFF ;
     background: #A600FF;
     border-radius: 30px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
     position: relative;
-    left: 52px;
-    top:30px;
+    left: 69px;
+    
 }
 
-section .contentbx .formbox .inputbx p{
+section .contentbx .formbox .inputb p{
     
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 1px;
     color:#A600FF ;
+    display:flex;
+    align-items: center;
+    justify-content:center;
     position: relative;
-    left: 52px;
-    top:61px;
+    right: 50px;
+    top :14px;
+   
 }
 
 

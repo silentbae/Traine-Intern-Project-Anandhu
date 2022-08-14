@@ -21,10 +21,11 @@ function Login (){
             <span>Password</span>
             <input type="password" name=""/>
           </div>
-          <div className="inputbx">
+          <div className="inputb">
             <input type="submit" value="Login" name=""/>
           </div>
-          <div className="inputbx">
+          <div className="inputb">
+            
             <p>Forgot password?</p>
           </div>
         </form>
