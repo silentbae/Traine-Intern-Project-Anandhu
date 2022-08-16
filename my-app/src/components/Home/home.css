@@ -5,7 +5,7 @@
     padding-left: 0;
     padding: right 0; 
     overflow: hidden;
-    background: #f2f5fa;
+    
     font-family: 'Poppins', sans-serif;
     
 }
@@ -39,7 +39,7 @@
     color: #668fff;
 }
 
-.container .content{
+.container .contents1{
     display: flex;
     margin-top:167px;
     margin-left: 382px;
@@ -47,6 +47,7 @@
     position: absolute;
     background-color:#ffffff;
     height: 70vh;
+    padding:50px;
     
 
 }

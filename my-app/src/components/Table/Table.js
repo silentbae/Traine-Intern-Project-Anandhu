@@ -3,9 +3,12 @@ import {images} from "../../assets/Images"
 import userdetails from '../../assets/data/data'
 
 
-function BasicExample() {
+function Table() {
   return (
-    <table>
+    <table style={{
+      backgroundColor: 'blue',
+      
+    }}>
   <tr>
     <th>Name</th>
     <th>Nick Name</th>
@@ -20,7 +23,7 @@ function BasicExample() {
   </tr>
   
     {userdetails.map((data,index)=>(
-      <tr>
+      <tr style={{background:'#FF0000'}}>
         <td>{data.name}</td>
         <td>{data.nickname}</td>
         <td>{data.date}</td>
@@ -41,4 +44,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default Table;
