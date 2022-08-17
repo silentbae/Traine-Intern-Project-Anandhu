@@ -4,8 +4,10 @@ table {
     font-family: 'Poppins', sans-serif;
     border-collapse: collapse;
     width: 100%;
+    height: 100%;
     border: .5px  ridge #f2f5fa; 
     background: #ffffff;
+    overflow: scroll;
     
 
     
@@ -15,13 +17,13 @@ table {
     text-align: left;
     padding: 8px;
     border-bottom:1px ridge #535357;
-    font-size: 12px;
+    font-size: 10px;
   }
   th {
     border-bottom:1px ridge  #535357;
     text-align: left;
     padding: 8px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     color:#1e22ff;
   }

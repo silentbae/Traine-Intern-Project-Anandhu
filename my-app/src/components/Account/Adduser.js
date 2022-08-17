@@ -40,7 +40,7 @@ function Adduser() {
             <div className="inputbx">
               <label>Gender :</label>
               <select name="gender" id="gender" >
-                    <option value="">select</option>  
+                    <option value="">Select</option>  
                     <option value="Male">Male</option> 
                     <option value="Female">Female</option> 
                     </select><br></br>
@@ -58,7 +58,7 @@ function Adduser() {
             <div className="inputbx">
               <label>Contact number :</label>
               <select name="contactcode" id="contactcode">
-                    <option value="">select</option>  
+                    <option value="">Select</option>  
                     <option value="+91">+91</option>   
               </select><br></br>
             </div>
@@ -69,7 +69,7 @@ function Adduser() {
             <div className="inputbx">
               <label>Status :</label>
               <select name="status" id="status">
-                    <option value="">select</option>  
+                    <option value="">Select</option>  
                     <option value="waiting">waiting</option>  
                     <option value="approved">approved</option>  
               </select><br></br>

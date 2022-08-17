@@ -11,7 +11,7 @@ function home() {
         <NavBar />
       </div>
       <div className="topbar">
-        <button className="btn-topbar"><Link to="/account/adduser" style={{ background : "none",color:'#668fff;', textDecoration: 'none' }}>ADD NEW</Link></button>
+        <button className="btn-topbar"><Link to="/account/adduser" style={{ background : "none",color:'#463bfa', textDecoration: 'none' }}>ADD NEW</Link></button>
         <button className="btn-topbar">LOGOUT</button>  
       </div>
       <div className="head">
@@ -20,6 +20,7 @@ function home() {
       <div className="contents1 ">
         <Table/>
       </div>
+      
    </div>
   )
 }

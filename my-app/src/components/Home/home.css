@@ -4,9 +4,9 @@
     padding:0;
     padding-left: 0;
     padding: right 0; 
-    overflow: hidden;
-    
+    background: #f2f5fa;
     font-family: 'Poppins', sans-serif;
+    
     
 }
 
@@ -14,7 +14,9 @@
 
 .container{
     display: flex;
-    background: #f2f5fa;
+    height: 100%;
+    width: 100%;
+   
     
     
    
@@ -45,8 +47,8 @@
     margin-left: 382px;
     width: 76vw;
     position: absolute;
-    background-color:#ffffff;
-    height: 70vh;
+    
+    height: 100%;
     padding:50px;
     
 
