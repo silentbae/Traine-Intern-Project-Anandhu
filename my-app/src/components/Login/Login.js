@@ -1,6 +1,7 @@
 import React from 'react'
 import './Login.css';
 import {images} from "../../assets/Images"
+import {Link} from "react-router-dom";
 
 function Login (){
   return (
@@ -26,7 +27,7 @@ function Login (){
           </div>
           <div className="inputb">
             
-            <p>Forgot password?</p>
+            <Link to="/forgotpassword" style={{ background : "none",color:'#463bfa', textDecoration: 'none' }}><p>Forgot password?</p></Link>
           </div>
         </form>
       </div>
