@@ -3,12 +3,13 @@ table {
 
     font-family: 'Poppins', sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    
     height: 100%;
     border: .5px  ridge #f2f5fa; 
     background: #ffffff;
-    overflow: scroll;
-    
+    overflow: auto;
+    padding: 0 10px 10px 10px;
+
 
     
   }

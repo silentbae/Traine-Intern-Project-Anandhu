@@ -19,7 +19,9 @@ function home() {
       </div>
       <div className="contents1 ">
         <Table/>
+        
       </div>
+
       
    </div>
   )
