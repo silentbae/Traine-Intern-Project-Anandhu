@@ -44,7 +44,8 @@ table {
     bottom: 20px;
   }
    .pagination a {
-    color:#1e22ff;
+    color:#ffffff;
+    background-color:#1e22ff;
     padding: 8px 5px;
     text-decoration: none;
   }
