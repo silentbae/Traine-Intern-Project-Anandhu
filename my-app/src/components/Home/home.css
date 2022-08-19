@@ -5,14 +5,8 @@
     display: flex;
     height: 100%;
     width: 100%;
-    
-   
-    
-    
-   
-
 }
-.container .topbar{
+.container .top-bar{
     background-color: #668fff;
     height: 100px;
     width: 100%;
@@ -23,7 +17,7 @@
     padding-right: 2em;
     
 }
-.container .btn-topbar{
+.container .btn-top-bar{
     padding: 0.7em 1em;
     margin: 0.7em;
     background-color: #f2f5fa;
@@ -31,17 +25,14 @@
     color: #668fff;
 }
 
-.container .contents1{
+.container .contents{
     display: flex;
     margin-top:167px;
     margin-left: 382px;
     width: 76vw;
     position: absolute;
-    
     height: 100%;
     padding:50px;
-    
-
 }
 .container .head{
     display: flex;

@@ -5,14 +5,8 @@
 .container{
     display: flex;
     background: #f2f5fa;
-    
-    
-    
-    
-   
-
 }
-.container .topbar{
+.container .top-bar{
     background-color: #668fff;
     height: 100px;
     width: 100%;
@@ -23,8 +17,6 @@
     padding-right: 2em;
     
 }
-
-
 .container .content{
     display: flex;
     margin-top:167px;
@@ -32,11 +24,7 @@
     width: 76vw;
     position: absolute;
     background: #f2f5fa;
-    
     height: 70vh;
-    
-    
-
 }
 .container .head{
     display: flex;
@@ -64,9 +52,6 @@ contentbx form{
     justify-content: space-around;
     margin: 0 134px;
     background: #f2f5fa;
-    
-    
-
 }
 .content .right{
     display:flex;
@@ -76,7 +61,6 @@ contentbx form{
     align-items: space-between;
     margin: 0 -5px;
     background: #f2f5fa;
-    
 }
 .content .left label {
     float: left;
@@ -96,9 +80,7 @@ contentbx form{
     padding: 0.5em;
     border-radius: 2px;
     box-shadow: none;
-    border: 1px solid black;
-    
-    
+    border: 1px solid black;    
 }
 .content .left select{
     margin: 1.3em 0em;
@@ -110,7 +92,6 @@ contentbx form{
     color: #696a6e;
     width: 176px;
 }
-
 .content .right label {
     float: left;
     clear: left;

@@ -1,11 +1,8 @@
 
 .container{
     display: flex;
-    
-   
-
 }
-.container .YourLogo{
+.container .your-logo{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,22 +10,17 @@
     padding: 0.9em 0em;
     width: 20vw;
     height: 100px;
-    position: absolute;
-    
+    position: absolute;  
 }
-.container .YourLogo p{
+.container .your-logo p{
     font-size: 20px;
     background: none;
     color: white;        
-}
-    
-.container .YourLogo svg{
+}   
+.container .your-logo svg{
     color: rgb(255, 255, 255); 
     background: none;   
-}
-    
-
-
+}    
 .container .menu{
     margin: 0;
     display: flex;
@@ -38,8 +30,7 @@
     width: 20vw;
     padding: 7em 0em;
     position: absolute;
-    top: 100px;
-    
+    top: 100px;   
 }
 .container .menu .btn-menu
 {
@@ -48,9 +39,7 @@
     font-weight: 0px;
     background-color: #463bfa ;
     border: none;
-    color:#FFFFFF;
-    
-    
+    color:#FFFFFF;    
 }
 .container .menu svg{
     margin-bottom: -0.1em;
@@ -59,7 +48,6 @@
     background: none;
     
 }
-
 .container .menu #icon-b{
     margin-left: -0.3em;
 }

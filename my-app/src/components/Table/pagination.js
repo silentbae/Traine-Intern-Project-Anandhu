@@ -12,7 +12,7 @@ const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
     <nav>
       <div className='pagination'>
         {pageNumbers.map(number => (
-          <div key={number} className='page-item'>
+          <div key={number} className='active'>
             <a onClick={() => paginate(number)} href='#dashboard' >
               {number}
             </a>

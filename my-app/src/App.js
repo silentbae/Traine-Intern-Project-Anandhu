@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/forgotpassword" element={<Forgotpassword />} />
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/message" element={<Message />} />
+        <Route path="/messages" element={<Message />} />
         <Route path="account/adduser" element={<Adduser />} />
       </Routes>
     </div>

@@ -19,7 +19,7 @@ table {
     font-size: 12px;
   }
   th {
-    border-bottom:1px ridge  #535357;
+    border-bottom:0.5px ridge  #535357;
     text-align: left;
     padding: 21px;
     font-size: 15px;
