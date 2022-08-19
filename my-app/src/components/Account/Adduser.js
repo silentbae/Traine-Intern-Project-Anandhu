@@ -1,10 +1,11 @@
 import React from 'react'
 import "./Adduser.css"
-
+import Navbar from '../Header/NavBar'
 function Adduser() {
   return (
    <div className=" container">
       <div className="Nav">
+        <Navbar/>
       </div>
       <div className="topbar">
           

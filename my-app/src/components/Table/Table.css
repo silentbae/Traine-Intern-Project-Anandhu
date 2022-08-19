@@ -3,28 +3,26 @@ table {
 
     font-family: 'Poppins', sans-serif;
     border-collapse: collapse;
-    
     height: 100%;
     border: .5px  ridge #f2f5fa; 
     background: #ffffff;
-    overflow: auto;
-    padding: 0 10px 10px 10px;
-
+   display:flex;
+   flex-direction:column;
 
     
   }
   
   td {
     text-align: left;
-    padding: 8px;
+    padding: 21px;
     border-bottom:1px ridge #535357;
-    font-size: 10px;
+    font-size: 12px;
   }
   th {
     border-bottom:1px ridge  #535357;
     text-align: left;
-    padding: 8px;
-    font-size: 14px;
+    padding: 21px;
+    font-size: 15px;
     font-weight: 500;
     color:#1e22ff;
   }
@@ -32,4 +30,21 @@ table {
     width:"5px" ;
     height:"5px";
 
+  }
+  .pagination{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-self: space-around;
+    align-items: flex-end;
+    
+
+  }
+  .pagination .page-item{
+    bottom: 20px;
+  }
+   .pagination a {
+    color:#1e22ff;
+    padding: 8px 5px;
+    text-decoration: none;
   }

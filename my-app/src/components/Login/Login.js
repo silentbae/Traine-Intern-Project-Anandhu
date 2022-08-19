@@ -23,7 +23,7 @@ function Login (){
             <input type="password" name=""/>
           </div>
           <div className="inputb">
-            <input type="submit" value="Login" name=""/>
+            <Link to="/dashboard"><input type="submit" value="Login" name=""/></Link>
           </div>
           <div className="inputb">
             
