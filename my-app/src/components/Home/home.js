@@ -11,8 +11,8 @@ function home() {
         <SideBar />
       </div>
       <div className="top-bar">
-        <button className="btn-topbar"><Link to="/account/adduser" style={{ background : "none",color:'#463bfa', textDecoration: 'none' }}>ADD NEW</Link></button>
-        <button className="btn-topbar">LOGOUT</button>  
+        <button className="btn-top-bar"><Link to="/account/adduser" style={{textDecorationLine:'none'}}>ADD NEW</Link></button>
+        <button className="btn-top-bar"><Link to="/" style={{textDecorationLine:'none'}} >LOGOUT</Link></button>  
       </div>
       <div className="head">
         <p>Welcome Back</p>
@@ -20,8 +20,6 @@ function home() {
       <div className="contents">
         <Table/>
       </div>
-
-      
    </div>
   )
 }

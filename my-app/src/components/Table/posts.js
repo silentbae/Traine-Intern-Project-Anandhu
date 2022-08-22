@@ -11,12 +11,12 @@ const Posts = ({ data, loading }) => {
             <th>Photo</th>
             <th>Firstname</th>
             <th>Lastname</th>
-            <th>Date of Birth</th>
+            <th>DateofBirth</th>
             <th>Age</th>
             <th>Gender</th>
             <th>Email</th>
             <th>Bloodgroup</th>
-            <th>Mob Number</th>
+            <th>MobNumber</th>
             <th>Address</th>
             <th>State</th>
           </tr>

@@ -54,7 +54,7 @@ function Login (){
             <input type="submit" value="Login" name=""onClick={loginClick}/>
           </div>
           <div className="input-box">
-            <Link to="/forgotpassword" style={{ background : "none",color:'#463bfa', textDecoration: 'none' }}><p>Forgot password?</p></Link>
+            <Link to="/forgotpassword" ><p>Forgot password?</p></Link>
           </div>
         </form>
       </div>

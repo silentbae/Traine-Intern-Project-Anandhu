@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
-
-
 .container{
     display: flex;
     height: 100%;
@@ -14,20 +12,20 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 2em;
-    
+    padding-right: 2em;  
 }
 .container .btn-top-bar{
     padding: 0.7em 1em;
     margin: 0.7em;
-    background-color: #f2f5fa;
     border: none;
+}
+.container .btn-top-bar Link{
+    background-color: #f2f5fa;
     color: #668fff;
 }
-
 .container .contents{
     display: flex;
-    margin-top:167px;
+    margin-top:142px;
     margin-left: 382px;
     width: 76vw;
     position: absolute;

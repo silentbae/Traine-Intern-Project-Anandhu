@@ -57,7 +57,7 @@ section .content-box .form-box h2{
     letter-spacing: 5px;
     display:flex;
     align-items: center;
-    justify-content:center;
+    justify-content:flex-start;
     
 }
 section .content-box .form-box .input-box{
@@ -70,7 +70,7 @@ section .content-box .form-box .input-box span{
     margin-bottom: 5px;
     display:flex;
     align-items: center;
-    justify-content:center;
+    justify-content:flex-start;
     color: #A600FF;
     font-weight: 300;
     font-size: 16px;
@@ -121,7 +121,11 @@ section .content-box .form-box .input-box p{
     top :14px;
    
 }
-
+section .content-box .form-box .input-box Link{
+    background : "none";
+    color:'#463bfa';
+    textDecoration: 'none';
+}
 
 
 
