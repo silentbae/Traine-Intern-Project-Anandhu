@@ -24,7 +24,7 @@ const Posts = ({ data, loading }) => {
       <tbody>
           {data.map((user,index) => (
               <tr key={index}>
-                 <td><img src={user.image}  width="50" height="50" alt="BigCo Inc. logo"/></td>
+                <td><img src={user.image}  width="50" height="50" alt="BigCo Inc. logo"/></td>
                 <td>{user.firstName}</td>
                 <td>{user.lastName}</td>
                 <td>{user.birthDate}</td>
